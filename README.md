@@ -11,7 +11,7 @@ A browser-based **Final Fantasy III engine** with real-time multiplayer. No game
 - **Hardened against hostile clients** — per-kind rate limiting, per-IP connection caps, payload clamping, JWT revocation + refresh, bcrypt timing equalization, protocol-boundary validation.
 - **Headless test infrastructure** — a combat simulator running production code paths in Node, a wire-regression suite, and a load tester driving 200 concurrent clients against the real server.
 
-`JavaScript (ES modules)` · `Node.js` · `Express` · `ws` · `better-sqlite3` · `JWT` · `bcrypt` · deployed on DigitalOcean
+`JavaScript (ES modules)` · `Node.js` · `ws (WebSocket)` · `better-sqlite3` · `JWT` · `bcrypt` · containerized with `Docker` · deployed on DigitalOcean
 
 ### 📈 tgoti — a "Tamagotchi for stocks" in your terminal
 
